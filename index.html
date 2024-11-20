@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currency Converter</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="converter-container">
+        <h1>Currency Converter</h1>
+        
+        <!-- From Amount Section -->
+        <div class="amount-section">
+            <label for="amount">From Amount:</label>
+            <input type="number" id="amount" placeholder="Enter amount" />
+        </div>
+        
+        <!-- From Currency Section -->
+        <div class="currency-section">
+            <label for="fromCurrency">From Currency:</label>
+            <select id="fromCurrency">
+                <option value="USD">USD</option>
+                <option value="EUR">EUR</option>
+                <option value="PKR">PKR</option>
+                <option value="INR">INR</option>
+                <option value="AUD">AUD</option>
+                <option value="CAD">CAD</option>
+                <option value="JPY">JPY</option>
+                <option value="CNY">CNY</option>
+                <option value="SAR">SAR</option>
+                <option value="GBP">GBP</option>
+                <option value="MYR">MYR</option>
+                <option value="ZAR">ZAR</option>
+                <option value="AED">AED</option>                
+            </select>
+        </div>
+
+        <!-- To Currency Section -->
+        <div class="currency-section">
+            <label for="toCurrency">To Currency:</label>
+            <select id="toCurrency">
+                <option value="USD">USD</option>
+                <option value="EUR">EUR</option>
+                <option value="PKR">PKR</option>
+                <option value="INR">INR</option>
+                <option value="AUD">AUD</option>
+                <option value="CAD">CAD</option>
+                <option value="JPY">JPY</option>
+                <option value="CNY">CNY</option>
+                <option value="SAR">SAR</option>
+                <option value="GBP">GBP</option>
+                <option value="MYR">MYR</option>
+                <option value="EGP">EGP</option>
+                <option value="ZAR">ZAR</option>
+                <option value="AED">AED</option>
+            </select>
+        </div>
+
+        <!-- Convert Button -->
+        <button id="convert">Convert</button>
+
+        <!-- Result Section -->
+        <div id="result" class="result"></div>
+    </div>
+
+     
+    <script src="script.js"></script>
+</body>
+</html>
